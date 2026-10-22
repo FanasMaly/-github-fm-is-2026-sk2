@@ -60,7 +60,7 @@ while(again.ToLower() == "a")
     //Console.WriteLine($"Didetence (krok): {step}");
 
     //Výpis zadaných hodnot do jednoho řádku
-    Console.WriteLine($"První číslo: {first}; POslední číslo: {last}; Diference (krok): {step};");
+    Console.WriteLine($"První číslo: {first}; Poslední číslo: {last}; Diference (krok): {step};");
 
     Console.WriteLine("==============================");
     Console.WriteLine();
@@ -71,7 +71,14 @@ while(again.ToLower() == "a")
 
     if(first <= last)
     {
-       joooooo Mohu vypsat radu
+       int current = first;
+        while(current <= last) {
+            Console.WriteLine(current);
+            //current = current + step;
+            // předchozí řádek lze napsat stručněji
+            current += step;
+        }
+
     }
     else
     {
