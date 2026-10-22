@@ -10,7 +10,7 @@ komentář
 // jako první si připravíme smyčku pro opakování programu
 Console.Clear();
 string again ="a";
-//.ToLower() převede vstup na malá písmena, takže program bude pokračovat při zadávání "a".
+//.ToLower() převede vstup na malá písmena, takže program bude pokračovat při zadávání "a" tak i "A".
 while(again.ToLower() == "a")
 {
     Console.WriteLine();
