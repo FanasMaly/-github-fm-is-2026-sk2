@@ -52,6 +52,36 @@ while(again.ToLower() == "a")
     }
 
 
+    //Rekapitulace zadaných hodnot
+    Console.WriteLine();
+    Console.WriteLine("==============================");
+    //Console.WriteLine($"První číslo: {first}");
+    //Console.WriteLine($"Poslední číslo: {last}");
+    //Console.WriteLine($"Didetence (krok): {step}");
+
+    //Výpis zadaných hodnot do jednoho řádku
+    Console.WriteLine($"První číslo: {first}; POslední číslo: {last}; Diference (krok): {step};");
+
+    Console.WriteLine("==============================");
+    Console.WriteLine();
+
+
+    //Jádro algoritmu pro výpis řady
+     Console.WriteLine("Výpis číselné řady: ");
+
+    if(first <= last)
+    {
+       joooooo Mohu vypsat radu
+    }
+    else
+    {
+        Console.WriteLine("Řadu nelze vypsat!");
+        Console.WriteLine("První číslo je větší než poslední.");
+        Console.WriteLine("Tento program umí vypsat pouze vzestupnou řadu (od menšího k vetšímu)");
+    }
+
+
+
 
      //dotaz směrem k uživateli na opkování
     Console.WriteLine();
