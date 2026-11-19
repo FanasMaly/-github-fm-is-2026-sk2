@@ -86,7 +86,7 @@ while(again.ToLower() == "a")
     Console.ResetColor();
 
 
-    
+     
 
 
     // Konec jádra algoritmu
