@@ -90,7 +90,7 @@ while(again.ToLower() == "a")
 
 
     // Konec jádra algoritmu
-
+ 
 
      //dotaz směrem k uživateli na opkování
     Console.WriteLine();
