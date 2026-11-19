@@ -8,6 +8,8 @@ komentář
 */
 
 // jako první si připravíme smyčku pro opakování programu
+using System.Runtime.Serialization.Formatters;
+
 Console.Clear();
 string again ="a";
 //.ToLower() převede vstup na malá písmena, takže program bude pokračovat při zadávání "a" tak i "A".
@@ -56,6 +58,36 @@ while(again.ToLower() == "a")
 
 
     //Jádro algoritmu
+
+    // vnejší cyklus, který bude řídit správný počet zobrazených řádků
+
+    for (int i =1; i <= height; i++)
+    {
+        if (i % 2 == 0)
+        {
+            //sudý
+            Console.ForegroundColor = ConsoleColor.Blue;
+        }
+        else
+        {
+            //lichý
+            Console.ForegroundColor = ConsoleColor.Green;
+        }
+
+        //vnitřní cyklus se stará o to aby ...
+        for(int j = 1; j <= height; j++)
+        {
+            Console.Write("* ");
+            System.Threading.Thread.Sleep(System.TimeSpan.FromMilliseconds(100)); // Efekt animace vykreslování
+        }
+        Console.WriteLine();
+    }
+
+    Console.ResetColor();
+
+
+    
+
 
     // Konec jádra algoritmu
 
