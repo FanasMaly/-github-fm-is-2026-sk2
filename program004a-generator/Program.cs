@@ -91,6 +91,7 @@ while(again.ToLower() == "a")
         if(myRandNumbs[i] == 0)
             zeros++;*/
 
+        //kladná a záporná
         if(myRandNumbs[i] < 0)
             negativeNumbs++;
         else if(myRandNumbs[i] > 0)
